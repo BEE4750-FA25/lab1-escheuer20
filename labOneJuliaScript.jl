@@ -23,5 +23,14 @@ dot_product([1 2 3], [4 5])
 
 
 ##### Making a plot
+x = []
+y= []
+for i in -5:5
+    push!(x, i)
+    push!(y, i*i)
+end
+#print(data)
+
+plot(x, y)
 
 
